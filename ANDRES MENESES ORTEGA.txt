@@ -1,0 +1,8 @@
+en este caso para iniciarlizar el repositorio
+git init
+luego creo este archivo block de notas
+para subir el archivo utilizo git add rutaDelArchivo
+luego hago conmit
+GIT commit -m "Andres Meneses Ortega"
+Para subir a la rama master
+Git push origin master
