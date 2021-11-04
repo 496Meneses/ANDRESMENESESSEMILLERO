@@ -28,14 +28,7 @@ public class CreacionComicTest {
 	 * Lista esperada de comics activos, Servirá para probar el metodo obtenerComicsActivos
 	 */
 	ArrayList<ComicDTO> listaEsperadaActivos;
-	/**
-	 * 
-	 * Metodo encargado de inicializar el caso de prueba, creando los comics y agregandolos a la lista listaComics
-	 * <b>Caso de Uso</b>
-	 * @author Andres Camilo Meneses
-	 * 
-	 * @return
-	 */
+
 	@Before
 	public void inicializarPrueba(){
 

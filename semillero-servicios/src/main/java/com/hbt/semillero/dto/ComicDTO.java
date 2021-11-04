@@ -29,9 +29,28 @@ public class ComicDTO implements Serializable {
 	private LocalDate fechaVenta;
 	private EstadoEnum estadoEnum;
 	private Long cantidad;
+	private Boolean Exitoso;
+	private String MensajeEjecucion; 
+	
+	public String getMensajeEjecucion() {
+		return MensajeEjecucion;
+	}
 
-	
-	
+	public void setMensajeEjecucion(String mensajeEjecucion) {
+		MensajeEjecucion = mensajeEjecucion;
+	}
+
+	public Boolean getExitoso() {
+		return Exitoso;
+	}
+
+	public void setExitoso(Boolean exitoso) {
+		Exitoso = exitoso;
+	}
+
+	public ComicDTO() {
+		
+	}
 	
 	public ComicDTO(String nombre, String editorial, TematicaEnum tematicaEnum, String coleccion,
 			Integer numeroPaginas, BigDecimal precio, String autores, Boolean color, LocalDate fechaVenta,
